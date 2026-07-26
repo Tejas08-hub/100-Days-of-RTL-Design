@@ -12,6 +12,8 @@ This repository contains Verilog-based RTL design challenges along with RTL impl
 |:---:|------------------------------------------|:------:|
 | 01 | 4-bit Synchronous Up-Down Counter | ✅ |
 | 02 | Moore FSM Sequence Detector (1011) | ✅ |
+| 03 | Synchronous FIFO (Full/Empty Flags) | ✅ |
+
 ---
 
 ⭐ New challenges will be added regularly.
