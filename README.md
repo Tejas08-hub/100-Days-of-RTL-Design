@@ -15,6 +15,7 @@ This repository contains Verilog-based RTL design challenges along with RTL impl
 | 03 | Synchronous FIFO (Full/Empty Flags) | ✅ |
 | 04 | 2-Flop CDC Synchronizer | ✅ |
 | 05 | Scan Flip-Flop and 4-bit Scan Chain | ✅ |
+| 06 | Static Timing Analysis (STA): Setup & Hold Slack Calculation | ✅ |
 
 ---
 
