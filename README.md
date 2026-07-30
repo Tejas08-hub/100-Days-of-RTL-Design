@@ -17,6 +17,7 @@ This repository contains Verilog-based RTL design challenges along with RTL impl
 | 05 | Scan Flip-Flop and 4-bit Scan Chain | ✅ |
 | 06 | Static Timing Analysis (STA): Setup & Hold Slack Calculation | ✅ |
 | 07 | Gray Code Counter (Why Async FIFOs Need It) | ✅ |
+| 08 | Round Robin Arbiter (4 Requesters) | ✅ |
 
 ---
 
