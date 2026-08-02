@@ -19,6 +19,7 @@ This repository contains Verilog-based RTL design challenges along with RTL impl
 | 07 | Gray Code Counter (Why Async FIFOs Need It) | ✅ |
 | 08 | Round Robin Arbiter (4 Requesters) | ✅ |
 | 09 | UART Transmitter (8-N-1) | ✅ |
+| 10 | 8-to-3 Priority Encoder | ✅ |
 
 ---
 
