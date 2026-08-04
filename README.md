@@ -22,6 +22,7 @@ This repository contains Verilog-based RTL design challenges along with RTL impl
 | 10 | 8-to-3 Priority Encoder | ✅ |
 | 11 | Simple Traffic Light Controller (Fixed Timing) | ✅ |
 | 12 | D Flip-Flop: Synchronous vs Asynchronous Reset | ✅ |
+| 13 | True Dual-Port RAM | ✅ |
 
 ---
 
