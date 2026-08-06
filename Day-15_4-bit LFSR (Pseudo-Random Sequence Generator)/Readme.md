@@ -54,7 +54,6 @@ The selected feedback taps correspond to a **maximal-length polynomial**, allowi
 - Learned the meaning of a **maximal-length sequence**, where all possible non-zero states are visited exactly once before repeating.
 - Understood the difference between **true random** and **pseudo-random** sequence generation.
 - Learned why LFSRs are widely used in **Logic Built-In Self-Test (LBIST)**, **CRC generation**, **data scrambling**, and **stream cipher applications**.
-- Verified the generated sequence using a **self-checking testbench** instead of relying solely on waveform inspection.
 
 ---
 
