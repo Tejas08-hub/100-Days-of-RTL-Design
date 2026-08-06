@@ -24,6 +24,7 @@ This repository contains Verilog-based RTL design challenges along with RTL impl
 | 12 | D Flip-Flop: Synchronous vs Asynchronous Reset | ✅ |
 | 13 | True Dual-Port RAM | ✅ |
 | 14 | Glitch-Free Integrated Clock Gating (ICG) Cell | ✅ |
+| 15 | 4-bit LFSR (Pseudo-Random Sequence Generator) | ✅ |
 
 ---
 
