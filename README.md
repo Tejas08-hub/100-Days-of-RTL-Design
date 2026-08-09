@@ -27,6 +27,7 @@ This repository contains Verilog-based RTL design challenges along with RTL impl
 |  15 | 4-bit LFSR (Pseudo-Random Sequence Generator)                |    ✅   |
 |  16 | Clock Divider by 3 with 50% Duty Cycle                       |    ✅   |
 |  17 | 32-bit Barrel Shifter                                        |    ✅   |
+|  18 | Valid/Ready Skid Buffer                                      |    ✅   |
 
 ---
 
