@@ -32,22 +32,25 @@ always@(posedge clk)begin
      skid_buff_valid<=0;
      end
    else begin 
-        if(out_valid &&out_ready)begin
-           // Skid buffer contains the next transaction
-            if(skid_buff_valid)begin
-                main_data<=skid_buff;
-                main_valid<=1;
-                skid_buff_valid<=0;
-                end
-                // No skid data
-             else if(in_valid && in_ready)begin
-                  main_data<=in_data;
-                  main_valid<=1;
-                end
-             else begin
-                 main_valid<=0;
-               end
-             end
+        if(out_valid && out_ready) begin
+    if(skid_buff_valid) begin
+        main_data <= skid_buff;
+        main_valid <= 1;
+        skid_buff_valid <= 0;
+
+        if(in_valid) begin
+            skid_buff <= in_data;
+            skid_buff_valid <= 1;
+        end
+    end
+    else if(in_valid && in_ready) begin
+        main_data <= in_data;
+        main_valid <= 1;
+    end
+    else begin
+        main_valid <= 0;
+    end
+end
          else begin
              if(!main_valid)begin
                   if(in_valid && in_ready)begin
