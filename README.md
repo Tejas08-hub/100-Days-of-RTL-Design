@@ -32,6 +32,7 @@ This repository contains Verilog-based RTL design challenges along with RTL impl
 |  20 | 8-bit Radix-2 Booth Multiplier (Signed)                      |    ✅   |
 |  21 | Physical Design Flow Fundamentals (Written)                 |    ✅   |
 |  22 | Toggle-Based Single-Pulse CDC Synchronizer                   |    ✅   |
+|  23 | Switch Debounce Circuit                                      |    ✅   |
 
 ---
 
